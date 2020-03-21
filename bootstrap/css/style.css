@@ -45,13 +45,25 @@ body {
 
 .features-container {}
 
+/*Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+page-header h2 {
+    margin-top: 0;
+}
+
 /*Block dividers*/
 
 .block-divider {
     width: 75px;
     height: 5px;
     border: 0;
-    background-color: #d6951d;
+    background-color: #444;
 }
 
 .block-divider--orange {
@@ -61,6 +73,13 @@ body {
 
 .block-divider--short {
     width: 35px;
+}
+
+/*Content Containers*/
+
+content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 /*Navbar*/
@@ -78,7 +97,7 @@ body {
     margin-bottom: 0;
     border:0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0 .25);
 }
 
 .navbar .navbar-toggler {
